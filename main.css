@@ -1,7 +1,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font: 13px/20px monospace;
+	font: 13px/20px 'Cousine', monospace;
+	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	background: #f5f5f5;
 	color: #1f2026;
@@ -9,8 +10,13 @@ html, body {
 
 a {
 	text-decoration: none;
+	border-bottom: 2px solid #1f2026;
 	color: #1f2026;
-	border-bottom: 2px solid #A5ACDF;
+}
+
+a:hover {
+	border-bottom: 2px solid #0055FF;
+	color: #0055FF;	
 }
 
 #container {
@@ -19,12 +25,25 @@ a {
 	padding: 0 24px;
 }
 
+.bold {
+	font-weight: 600;
+}
+
+.header-block {
+	margin-bottom: 1.5rem;
+}
+
 .textfield {
 	max-width: 40rem;
+	max-width: 600px;
 }
 
 .image-container {
-	margin: 40px 0;
+	margin: 64px 0 64px;
+}
+
+.image-container:first {
+	margin: 48px 0 40px;
 }
 
 .image-container img {
