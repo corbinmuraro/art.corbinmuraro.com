@@ -49,3 +49,9 @@ a:hover {
 .image-container img {
 	width: 100%;
 }
+
+@media (max-width: 800px) {
+	#container {
+		margin: 24px auto 48px;
+	}
+}
