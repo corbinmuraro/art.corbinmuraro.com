@@ -1,57 +1,53 @@
-html, body {
-	margin: 0;
-	padding: 0;
-	font: 13px/20px 'Cousine', monospace;
-	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
-	background: #f5f5f5;
-	color: #1f2026;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 13px/20px "Cousine", monospace;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: #fafafa;
+  color: #1f2026;
 }
 
 a {
-	text-decoration: none;
-	border-bottom: 2px solid #1f2026;
-	color: #1f2026;
+  text-decoration: none;
+  color: #1f2026;
+  cursor: alias;
 }
 
 a:hover {
-	border-bottom: 2px solid #004ADF;
-	color: #0142C4;	
+  border-bottom: 1px solid #0142c4;
+  color: #0142c4;
 }
 
 #container {
-	max-width: 750px;
-	margin: 48px auto;
-	padding: 0 24px;
+  max-width: 750px;
+  margin: 48px auto;
+  padding: 0 24px;
 }
 
 .bold {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .header-block {
-	margin-bottom: 1.5rem;
-}
-
-.textfield {
-	max-width: 40rem;
-	max-width: 600px;
+  margin-bottom: 1.5rem;
 }
 
 .image-container {
-	margin: 64px 0 64px;
+  margin: 4rem 0 6rem;
 }
 
 .image-container:first {
-	margin: 48px 0 40px;
+  margin: 3rem 0;
 }
 
 .image-container img {
-	width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
-	#container {
-		margin: 24px auto 48px;
-	}
+  #container {
+    margin: 1.5rem auto 3rem;
+  }
 }
